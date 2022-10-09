@@ -30,7 +30,10 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.6.1.js",
+              "src/assets/js/script.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -98,10 +101,16 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.6.1.js",
+              "src/assets/js/script.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "760ab89b-9eab-4c02-88b6-6416b990bc7d"
   }
 }

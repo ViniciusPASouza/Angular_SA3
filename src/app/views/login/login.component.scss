@@ -1,0 +1,58 @@
+// tela de login
+
+.login-inputs{
+  background-color: #00000030;
+  padding: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.login-redes-sociais{
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.formulario-login {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario-login h2 {
+margin-bottom: 30px;
+}
+
+.logo-gmail img {
+  padding-top: 10px;
+  height: 35px;
+}
+
+.logo-facebook img {
+  padding-top: 10px;
+  height: 35px;
+}
+
+.formulario-login h3 {
+  padding-top: 30px;
+  font-size: 18px;
+  font-style: oblique;
+  }
+
+.botao-login h3 a {
+  text-decoration: none;
+}
+
+.logotipos-login {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+}
