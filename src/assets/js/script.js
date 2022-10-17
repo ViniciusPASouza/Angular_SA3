@@ -23,7 +23,7 @@ $(document).ready(function() {
     let slideAtual = 1
 
     function mudarSlide() {
-        console.log(slideAtual)
+        // console.log(slideAtual)
 
         // Remove o slide anterior
         if (slideAtual > 0) {

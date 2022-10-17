@@ -1,3 +1,4 @@
+import { User } from './../../models/user';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -12,4 +13,9 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  userModel = new User ();
+
+  receberDados(){
+    console.log(this.userModel);
+  }
 }
