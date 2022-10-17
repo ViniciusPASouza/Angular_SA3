@@ -1,22 +1,18 @@
 
-<div class="container-grid">
-  <div class="login-inputs">
-      <div class="formulario-login">
-          <h2> Bem-vindo, faça login para continuar </h2>
-          <label class="input-email-senha"> E-mail </label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          <label class="input-email-senha"> Senha </label>
-          <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="digite sua senha">
-          <button type="submit" class="btn btn-primary">Sign in</button>
+<main>
+  <form>
+      <div class="campo-label">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Ex.: email@email.com">
+      </div>
 
-          <div class="logotipos-login">
-              <a class="logo-gmail" href="#"><img src="/assets/img/gmail.png" alt=""></a>
-              <a class="logo-facebook" href="#"><img src="/assets/img/facebook 1.png" alt=""></a>
-          </div>
+      <div class="campo-label">
+          <label for="senha">Senha</label>
+          <input type="password" name="password" id="senha" placeholder="Sua senha aqui...">
+      </div>
 
-          <div class="bota-login">
-              <h3> <a href="">Cadastre-se</a> para prosseguir </h3>
-          </div>
-
-  </div>
-</div>
+      <input id="botao-enviar" type="submit" value="Fazer Login">
+      <!-- <button type="submit">Enviar</button> -->
+  </form>
+</main>
+<app-footer></app-footer>

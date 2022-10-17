@@ -1,58 +1,52 @@
-// tela de login
-
-.login-inputs{
-  background-color: #00000030;
-  padding: 150px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-around;
-}
-
-.login-redes-sociais{
-  width: 10px;
-  height: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.formulario-login {
-  width: 50%;
+main {
+  background-color: black;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  color: white;
 }
 
-.formulario-login h2 {
-margin-bottom: 30px;
-}
-
-.logo-gmail img {
-  padding-top: 10px;
-  height: 35px;
-}
-
-.logo-facebook img {
-  padding-top: 10px;
-  height: 35px;
-}
-
-.formulario-login h3 {
-  padding-top: 30px;
-  font-size: 18px;
-  font-style: oblique;
-  }
-
-.botao-login h3 a {
-  text-decoration: none;
-}
-
-.logotipos-login {
+form {
+  width: 40%;
+  height: 400px;
+  margin: 0 auto;
+  padding: 100px 0;
+  background-color: #1E1C21;
   display: flex;
-  width: 160px;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+form input[type="submit"] {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #C31616;
+  color: white;
+}
+
+.campo-label {
+  width: 60%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  text-indent: 5px;
+}
+
+input, button {
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+}
+
+button {
+  width: 200px;
+}
+
+p {
+  text-align: center;
 }
