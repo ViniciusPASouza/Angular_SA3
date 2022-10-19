@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "email": "viniciuspiinhal@gmail.com",
+      "password": "password",
+      "firstname": "Vinícius",
+      "lastname": "Pinhal Alves Souza",
+      "age": 32,
+      "id": 1
+    }
+  ],
+  "produtos": []
+}
