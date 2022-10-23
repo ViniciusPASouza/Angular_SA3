@@ -20,8 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
-    HttpClientModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
