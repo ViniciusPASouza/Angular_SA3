@@ -2,10 +2,10 @@
   "users": [
     {
       "email": "viniciuspiinhal@gmail.com",
-      "password": "password",
+      "password": "$2a$10$LpqiGOcRKuJL3euWMaZrJupPE.w7.1LTuCdiG6TZr9QLymRSFySwK",
       "firstname": "Vinícius",
       "lastname": "Pinhal Alves Souza",
-      "age": 32,
+      "age": 31,
       "id": 1
     }
   ],
