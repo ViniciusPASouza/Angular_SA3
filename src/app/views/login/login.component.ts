@@ -4,6 +4,7 @@ import { User } from 'src/app/models/user';
 import { LoginService } from 'src/app/services/login.service';
 import {HomeComponent} from 'src/app/views/home/home.component'
 
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -17,13 +18,11 @@ export class LoginComponent implements OnInit {
   }
 
   userModel = new User ();
-  mensagem="";
 
-  receberDados(){
+  receberDados(){ 
     this.loginService.login(this.userModel).subscribe({
-      next: (response) => {
-        console.log (response.body.user.nome)
-        localStorage.setItem("nomeUsuario", response.body.user.nome)
+      next: (response) => { 
+        console.log (response)
         this.router.navigateByUrl("/")
       }
     })

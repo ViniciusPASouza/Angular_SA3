@@ -10,16 +10,15 @@ export class LoginService {
 
   constructor(private httpClient: HttpClient) { }
 
-  uri = "http://localhost:3000/login"
+  uri = " http://localhost:3000/login"
+
+  //Assincrona - Função com retorno
 
   login(usuario: User): Observable<any> {
     return this.httpClient.post(this.uri, JSON.stringify(usuario), {
-      headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
+      headers: new HttpHeaders({ 'Content-type': 'application/json' }),
       observe: 'response'
     })
-
   }
-
-
 
 }
